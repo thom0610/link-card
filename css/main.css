@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia, serif;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  display: block;
+  background-color: #cabdb2;
+  color: #fff;
+  font-size: 1.125rem;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  color: #512200;
+  display: block;
+}
+
+.block-1 {
+  border-bottom: 2px solid #9a816d;
+}
+
+.stat {
+  color: #512200;
+}
+
+.elements {
+  display: inline;
+  color: #512200;
+}
