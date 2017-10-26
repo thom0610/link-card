@@ -8,17 +8,18 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 1rem;
+.link-card {
+  margin: .5rem;
   display: block;
   background-color: #dcd4cd;
   color: #fff;
   font-size: 1.125rem;
   border-width: 3px;
-  padding: .4em .75em .3em;
+  padding: 1em;
   border: 3px solid #9a816d;
   border-radius: 8px;
   text-align: center;
+  text-decoration: none;
 }
 
 h2 {
@@ -38,17 +39,22 @@ h2 {
 .stat {
   color: #512200;
   text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .elements {
-  display: inline;
+  display: inline-block;
   color: #512200;
   text-align: left;
+  line-height: 1.5rem;
+  border-bottom: 2px solid #9a816d;
 }
 
 dt,
 dd {
   display: inline-block;
+  font-size: .875rem;
 }
 
 dd {
@@ -64,13 +70,20 @@ dt {
   display: inline-block;
 }
 
-a {
+span {
   display: block;
   background-color: #785439;
   color: #fff;
-  text-decoration: none;
   border-radius: 8px;
-  padding: .75rem;
   font-family: Dosis, sans-serif;
   text-align: center;
+  padding: .4em .75em .5em;
+}
+
+.link-card:hover {
+  color: #cabdb2;
+}
+
+.btn-wrap {
+  padding-top: 1rem;
 }
