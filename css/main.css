@@ -11,7 +11,7 @@ html {
 body {
   margin: 1rem;
   display: block;
-  background-color: #cabdb2;
+  background-color: #dcd4cd;
   color: #fff;
   font-size: 1.125rem;
   border-width: 3px;
@@ -24,6 +24,8 @@ h1 {
   font-family: "Dosis", sans-serif;
   color: #512200;
   display: block;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .block-1 {
@@ -37,4 +39,18 @@ h1 {
 .elements {
   display: inline;
   color: #512200;
+}
+
+dt,
+dd {
+  display: inline-block;
+}
+
+dd {
+  margin: 0;
+  font-style: italic;
+}
+
+dt {
+  width: 50%;
 }
