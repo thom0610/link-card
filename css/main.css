@@ -16,7 +16,7 @@ html {
   font-size: 1.125rem;
   border-width: 3px;
   padding: 1em;
-  border: 3px solid #9a816d;
+  border: 3px solid #cabdb2;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
@@ -32,7 +32,7 @@ html {
 }
 
 .block-1 {
-  border-bottom: 2px solid #9a816d;
+  border-bottom: 2px solid #cabdb2;
   text-align: left;
 }
 
@@ -48,7 +48,7 @@ html {
   color: #512200;
   text-align: left;
   line-height: 1.5rem;
-  border-bottom: 2px solid #9a816d;
+  border-bottom: 2px solid #cabdb2;
 }
 
 dt,
