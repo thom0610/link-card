@@ -11,7 +11,7 @@ html {
 .link-card {
   margin: .5rem;
   display: block;
-  background-color: #f0eee8;
+  background-color: #dcd4cd;
   color: #fff;
   font-size: 1.125rem;
   border-width: 3px;
@@ -32,7 +32,7 @@ html {
 }
 
 .block-1 {
-  border-bottom: 2px solid #cabdb2;
+  border-bottom: 2px solid #9a816d;
   text-align: left;
 }
 
@@ -41,6 +41,7 @@ html {
   text-align: left;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .elements {
@@ -48,7 +49,7 @@ html {
   color: #512200;
   text-align: left;
   line-height: 1.5rem;
-  border-bottom: 2px solid #cabdb2;
+  border-bottom: 2px solid #9a816d;
 }
 
 dt,
@@ -81,7 +82,7 @@ span {
 }
 
 .link-card:hover {
-  background-color: #dcd4cd;
+  background-color: #cabdb2;
 }
 
 .btn-wrap {
