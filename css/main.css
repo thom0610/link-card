@@ -11,7 +11,7 @@ html {
 .link-card {
   margin: .5rem;
   display: block;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   color: #fff;
   font-size: 1.125rem;
   border-width: 3px;
@@ -22,7 +22,7 @@ html {
   text-decoration: none;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   color: #512200;
   display: block;
@@ -81,7 +81,7 @@ span {
 }
 
 .link-card:hover {
-  color: #cabdb2;
+  background-color: #dcd4cd;
 }
 
 .btn-wrap {
