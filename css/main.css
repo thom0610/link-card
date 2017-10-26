@@ -18,10 +18,11 @@ body {
   padding: .4em .75em .3em;
   border: 3px solid #9a816d;
   border-radius: 8px;
+  text-align: center;
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   color: #512200;
   display: block;
   margin: 0;
@@ -69,11 +70,7 @@ a {
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
-  padding:.75rem;
-  font-family: "Dosis", sans-serif;
-  text-align: center;
-}
-
-body {
+  padding: .75rem;
+  font-family: Dosis, sans-serif;
   text-align: center;
 }
