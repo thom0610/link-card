@@ -20,25 +20,29 @@ body {
   border-radius: 8px;
 }
 
-h1 {
+h2 {
   font-family: "Dosis", sans-serif;
   color: #512200;
   display: block;
   margin: 0;
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .block-1 {
   border-bottom: 2px solid #9a816d;
+  text-align: left;
 }
 
 .stat {
   color: #512200;
+  text-align: left;
 }
 
 .elements {
   display: inline;
   color: #512200;
+  text-align: left;
 }
 
 dt,
@@ -53,4 +57,23 @@ dd {
 
 dt {
   width: 50%;
+}
+
+.btn {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  background-color: #785439;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  padding:.75rem;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+
+body {
+  text-align: center;
 }
